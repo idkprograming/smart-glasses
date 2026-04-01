@@ -16,11 +16,11 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &SPI, OLED_DC, OLED_RESET, OLED_CS);
 
 // WiFi credentials
-const char* ssid = "Beilei";
-const char* password = "980097www";
+const char* ssid = "ssid";
+const char* password = "password";
 
-String ApiKey = "26e4a77540934cd9a53135121262803";
-String location = "New Jersey";
+String ApiKey = "key";
+String location = "ur loc";
 
 String url;
 
